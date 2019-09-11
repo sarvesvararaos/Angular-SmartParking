@@ -1,0 +1,33 @@
+<form [formGroup]="Feedback" (ngSubmit)="AddS()"> <table>
+        <h2>  Feedback </h2>
+        <tr><th>  Name</th>
+          <td><input type="text"></td>
+        </tr><br>
+      
+         <tr>
+           <th>
+                Email
+           </th>
+           <td><input type="text"></td>
+         </tr>
+          <br>
+         <tr>
+           <th>
+                Parking Date
+           </th>
+           <td>
+                <input type="date">
+           </td>
+         </tr>    
+           <tr>     <th>Suggestions</th>           <td>
+                   <textarea name="others" id="" cols="30" rows="3"></textarea>
+                </td>
+              </tr><br>
+              <tr><th></th>
+                  <td>
+                        <input type="submit" id=b1 value="Submit">
+                  </td>
+              </tr>
+     
+        </table>
+      </form>

@@ -1,0 +1,112 @@
+    
+   <form [formGroup]="Bookings" (ngSubmit)="AddS()"> 
+  <table>
+  <h2>
+    Parking Reservation Booking
+  </h2>
+  <tr>
+    <th>
+        Choose Vehicle Type
+        
+    </th>
+    <td>
+        <select id="t1" class="form-control" formControlName="ChooseVehicleType">
+          <option value="2-Wheeler">2-Wheeler</option>
+          <option value="3-Wheeler">3-Wheeler</option>
+          <option value="4-Wheeler">4-Wheeler</option>
+          </select><br>
+    </td>
+  </tr>
+
+   <tr>
+     <th>
+        Choose Parking Level
+         
+     </th>
+     <td>
+        <select id="t2" class="form-control" formControlName="ChooseParkingLevel">
+        <option value="Top-Portion">Top-Portion</option>
+        <option value="Middle-portion">Middle-portion</option>
+        <option value="Basement-Level">Basement-Level</option>
+      </select><br><br>
+     </td>
+   </tr>
+    
+   <tr>
+     <th>
+        Parking Date
+     </th>
+     <td>
+        <input type="date" id="t3" class="form-control" formControlName="ParkingDate"><br><br>
+     </td>
+   </tr>
+   
+   <tr>
+     <th>
+        Choose Parking Row
+     </th>
+     <td>
+       <select id="t4" class="form-control" formControlName="ChooseParkingRow">
+        <option value="BL1">BL-1</option>
+        <option value="BL2">BL-2</option>
+        <option value="Bl3">BL-3</option>
+        <option value="Bl3">MP-1</option>
+        <option value="Bl3">MP-2</option>
+        <option value="Bl3">MP-3</option>
+        <option value="Bl3">TP-1</option>
+        <option value="Bl3">TP-2</option>
+        <option value="Bl3">TP-3</option>
+      </select><br><br>
+     </td>
+   </tr>
+   <tr>
+     <th>
+        Choose Parking Slot
+     </th>                                        
+     <td>
+        <select id="t5" class="form-control" formControlName="ChooseParkingSlot">
+            <option value="BL1">BLS-1</option>
+            <option value="BL2">BLS-2</option>
+            <option value="Bl3">BLS-3</option>
+            <option value="Bl3">MPS-1</option>
+            <option value="Bl3">MPS-2</option>
+            <option value="Bl3">MPS-3</option>
+            <option value="Bl3">TPS-1</option>
+            <option value="Bl3">TPS-2</option>
+            <option value="Bl3">TPS-3</option>
+          </select><br><br>
+     </td>
+   </tr>
+    
+       
+      <h3>Booking Details</h3>
+        <tr>
+          <th>
+              Customer Name 
+          </th>
+          <td>
+              <input type="text" class="form-control" formControlName="CustomerName"> <br><br>
+          </td>
+        </tr>
+        <tr>
+          <th>
+              Phone No.
+          </th>
+          <td>
+              <input type="text" class="form-control" formControlName="PhoneNo">  <br><br>
+          </td>
+        </tr>
+   
+        <tr>
+          <th>
+              Vehicle Number
+          </th>
+          <td>
+              <input type="text" class="form-control" formControlName="VehicleNo"> <br><br>
+          </td>
+        </tr>
+    <br>
+    
+        <input type="submit" id="btn" value="BOOK NOW">
+  </table>
+  </form> 

@@ -1,0 +1,27 @@
+<div>
+<table style="width: 100%"  border="1px">
+    <tr>
+        <th>Vehicle Type</th>
+              <th>Parking Level</th>
+              <th> Parking Date </th>
+                 <th>Parking Row </th>
+                  <th>Parking Slot</th>
+                  <th>Customer Name</th>
+                  <th> Phone</th>
+                              <th> Vehicle No</th>
+    </tr>
+     <tr *ngFor="let p of User"> 
+       <td>{{p.ChooseVehicleType}}</td>
+        <td>{{p.ChooseParkingLevel}}</td>
+        <td>{{p.ParkingDate}}</td>
+        <td>{{p.ChooseParkingRow}}</td>
+        <td>{{p.ChooseParkingSlot}}</td>
+        <td>{{p.CustomerName}}</td>
+        <td>{{p.PhoneNo}}</td>
+        <td>{{p.VehicleNo}}</td>
+    </tr>
+
+
+</table>
+
+</div> 

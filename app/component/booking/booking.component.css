@@ -1,0 +1,31 @@
+#container1
+{
+    margin-left: 20px;
+}
+table{
+    margin-top:50px;
+    margin-left: 450px;
+}
+#t3{
+    width: 145px;
+}
+#t1,#t2,#t4,#t5{
+width: 148px;
+
+}
+#btn
+{
+    margin-left: 250px;
+    color:white;
+    background: lightseagreen;
+    width:150px;
+    height:40px;
+}
+h2{
+    color:red;
+    margin-left:10px;
+}
+h3{
+    color:red;
+    margin-left:10px;   
+}

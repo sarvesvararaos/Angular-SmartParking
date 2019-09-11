@@ -1,0 +1,11 @@
+
+        <form [formGroup]="Registration" (ngSubmit)="AddS()"> 
+                
+        <h3>Signup</h3>
+        <input type="text" placeholder="id" class="form-control" formControlName="id">  <br><br>    
+        <input type="text" placeholder="Username" class="form-control" formControlName="Username"><br><br>
+        <input type="text" placeholder="Email" class="form-control" formControlName="Email"><br><br>
+        <input type="password" placeholder="Password"  class="form-control" formControlName="Password"><br><br>
+        <input type="password" placeholder="Confirm password" class="form-control" formControlName="ConfirmPassword"><br><br>
+        <Button type="submit"id="btn2" value="Signup">Signup</Button><br><br>
+</form>

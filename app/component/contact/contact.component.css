@@ -1,0 +1,29 @@
+input{
+    padding:10px;
+    width: 300px;
+    margin-left: 30px;
+  }
+  #f1{
+    width: 125px;
+  }
+  div{
+    border: 1px solid black;
+    background: lightgray;
+    width: 380px;
+    margin-top:80px;
+    margin-left: 450px;
+  }
+  #f2{
+    width:125px;
+  }
+  h3{
+    margin-left: 150px;
+  }
+  textarea{
+    margin-left: 30px;
+    width: 318px;
+  }
+  #btn3{width: 322px;
+    color:white;
+    background-color: brown;
+  }
